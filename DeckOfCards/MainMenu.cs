@@ -28,7 +28,7 @@ namespace DeckOfCardsDemo
         }
 
         /// <summary>
-        /// Button click handler method. Shuffles the deck
+        /// Button click handler method. Shuffles the deck.
         /// </summary>
         private void shuffle_Click(object sender, EventArgs e)
         {
@@ -44,7 +44,7 @@ namespace DeckOfCardsDemo
         }
 
         /// <summary>
-        /// Button click handler method. Draws a card
+        /// Button click handler method. Draws a card.
         /// </summary>
         private void drawACard_Click(object sender, EventArgs e)
         {
@@ -62,7 +62,7 @@ namespace DeckOfCardsDemo
         }
 
         /// <summary>
-        /// Button click handler method. Returns drawn cards back to the deck
+        /// Button click handler method. Returns all drawn cards back to the deck, one card at a time.
         /// </summary>
         private void returnCardsToDeck_Click(object sender, EventArgs e)
         {

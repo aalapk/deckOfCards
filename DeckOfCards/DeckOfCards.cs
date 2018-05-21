@@ -17,7 +17,7 @@ namespace DeckOfCardsDemo
         private int noOfDecks;
 
         /// <summary>
-        /// Constructor. Initializes the deck. Receives 'number of decks as a parameter, allowing multi-deck scenarios.
+        /// Constructor. Initializes the deck. Receives number of decks as a parameter, allowing multi-deck scenarios.
         /// </summary>
         public DeckOfCards(int noOfDecks)
         {
@@ -41,12 +41,12 @@ namespace DeckOfCardsDemo
         }
 
         /// <summary>
-        /// Constructor. If no argument is passed (no. of decks desired), then defaults to 1 deck, calling the earlier constructor with 1 as parameter.
+        /// Constructor. If no argument is passed (no. of decks desired), then defaults to 1 deck, calling the other constructor with 1 as parameter.
         /// </summary>
-        public DeckOfCards() : this(1){}
+        public DeckOfCards() : this(1) {}
 
         /// <summary>
-        /// Picks and returns a card at a random index. Returns Null if the deck is empty.
+        /// Picks and returns a card from a random index. Returns Null if the deck is empty.
         /// </summary>
         public Card drawACard()
         {
