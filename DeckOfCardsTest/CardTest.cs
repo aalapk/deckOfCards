@@ -13,7 +13,7 @@ namespace DeckOfCardsTest
         public void getDisplayString_GetADisplayString_AssertCorrectness()
         {
             Card card = new Card(Suit.Clubs, Facevalue.Four);
-            Assert.That(card.getDisplayString, Is.EqualTo("Four of Clubs"));
+            StringAssert.AreEqualIgnoringCase(card.getDisplayString(), "Four of Clubs");
         }
 
         [Test]
